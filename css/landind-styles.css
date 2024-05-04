@@ -1,0 +1,116 @@
+.navbar-brand {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+    font-size: 24px; /* Ajusta el tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    color: #333; /* Cambia el color del texto */
+    margin-left: 10px; /* Agrega un margen a la izquierda para separar el título del logo */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Color del texto de los enlaces */
+    font-size: 1.2rem; /* Tamaño de fuente de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Cambio de color del texto al pasar el mouse */
+    background-color: #357a38; /* Cambio de color de fondo al pasar el mouse */
+    border-radius: 5px; /* Borde redondeado al pasar el mouse */
+}
+
+.navbar-toggler {
+    border-color: #fff; /* Color del borde del botón del menú desplegable */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Color del icono del botón del menú desplegable */
+}
+
+.carousel-item img {
+    max-height: 500px; /* Altura máxima de las imágenes del carousel */
+    object-fit: cover; /* Ajuste de la imagen al tamaño del carousel */
+}
+
+.login-btn {
+    color: #fff; /* Color del texto del botón de inicio de sesión */
+    font-size: 1.2rem; /* Tamaño de fuente del botón de inicio de sesión */
+    margin-left: auto; /* Empujar el botón a la derecha */
+    border: 2px solid #fff; /* Borde del botón */
+    padding: 8px 16px; /* Espaciado interno del botón */
+    border-radius: 30px; /* Borde redondeado del botón */
+}
+
+.login-btn:hover {
+    background-color: #357a38; /* Cambio de color de fondo al pasar el mouse */
+}
+
+/* Estilos personalizados para los iconos de los controles de navegación */
+.carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: brightness(80%) grayscale(20%);/* Ajusta el porcentaje de desaturación según lo desees */
+        border-radius: 50%;
+        transition: box-shadow 0.3s ease;
+    }
+
+    /* Estilos para el efecto de brillo al pasar el cursor sobre los botones de navegación */
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5);
+         
+    }
+
+/* Estilos personalizados para el hero section */
+.hero {
+    background-color: #f8f9fa; /* Cambia el color de fondo del hero section */
+    padding: 100px 0; /* Ajusta el espacio interno del hero section */
+}
+
+.hero h1 {
+    font-family: 'Roboto', sans-serif; /* Utiliza la fuente Roboto para los títulos */
+    font-size: 3.5rem; /* Ajusta el tamaño del título */
+    color: #333; /* Cambia el color del texto del título */
+    margin-bottom: 20px; /* Añade espacio inferior al título */
+}
+
+.hero p {
+    font-family: 'Montserrat', sans-serif; /* Utiliza la fuente Montserrat para los párrafos */
+    font-size: 1.2rem; /* Ajusta el tamaño del párrafo */
+    color: #666; /* Cambia el color del texto del párrafo */
+    margin-bottom: 40px; /* Añade espacio inferior al párrafo */
+}
+
+/* Estilos personalizados para el header */
+header {
+    position: fixed; /* Establece el encabezado como fijo */
+    top: 0; /* Ancla el encabezado en la parte superior de la página */
+    width: 100%; /* Ajusta el ancho del encabezado para que ocupe toda la pantalla */
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+    background-color: #4CAF50; /* Color de fondo del header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al encabezado */
+    padding: 10px 0;
+}
+
+/* Ajusta el espacio superior del contenido para evitar la superposición con el encabezado fijo */
+body {
+    padding-top: 80px; /* Ajusta el espacio superior del contenido según la altura del encabezado */
+}
+
+  /* Estilos base del footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #000; /* Cambia el color de los iconos */
+}
+
+
+        
